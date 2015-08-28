@@ -1,0 +1,19 @@
+#Customer##Nodename##Policy##BackupType##ExitCode##Time
+node1.cust1.vzb.server##MSSQLDBBackup##FULL##0##26-08-2015 09:00:08##cust1
+node1.cust1.vzb.server##MSSQLDBBackup##INC##0##26-08-2015 13:03:21##cust1
+#
+# INC FAIL + INCFULL SUCCESS
+node2.cust2.vzb.server##OracleDBBackup##INC##15##26-08-2015 10:00:00##cust2
+node2.cust2.vzb.server##OracleDBBackup##FULL##0##26-08-2015 15:03:45##cust2
+#
+# INC FAIL + INCFULL FAIL  [TICKET]
+node3.cust3.vzb.server##MysqlDBBackup##INC##15##26-08-2015 10:51:20##cust3
+node3.cust3.vzb.server##MysqlDBBackup##FULL##15##26-08-2015 15:30:00##cust3
+#
+# FULL FAIL + INC SUCCESS [TICKET]
+node3.cust4.vzb.server##DB2DBBackup##FULL##15##26-08-2015 10:01:00##cust4
+node3.cust4.vzb.server##DB2DBBackup##INC##0##26-08-2015 15:29:00##cust4
+#
+# FULL FAIL + INCFULL SUCCESS
+node3.cust5.vzb.server##OracleDBBackup##FULL##15##26-08-2015 10:19:00##cust5
+node3.cust5.vzb.server##OracleDBBackup##FULL##0##26-08-2015 15:47:00##cust5
