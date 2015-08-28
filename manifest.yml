@@ -1,0 +1,4 @@
+applications:
+- name: TicketCorrelator
+  memory: 128m
+  host: VerizonIndia
