@@ -1,0 +1,4 @@
+TKT1001##MyNode3##Policy1##Assigned##Node: MyNode3<br>Policy: Policy1<br>Type: INC<br>Exit Code: 15<br><br>Node: MyNode3<br>Policy: Policy1<br>Type: FULL<br>Exit Code: 15<br><br>
+TKT1002##MyNode3##Policy2##Assigned##Node: MyNode3<br>Policy: Policy2<br>Type: FULL<br>Exit Code: 15<br><br>
+TKT1001##MyNode3##Policy1##Assigned##Node: MyNode3<br>Policy: Policy1<br>Type: INC<br>Exit Code: 15<br><br>Node: MyNode3<br>Policy: Policy1<br>Type: FULL<br>Exit Code: 15<br><br>
+TKT1002##MyNode3##Policy2##Assigned##Node: MyNode3<br>Policy: Policy2<br>Type: FULL<br>Exit Code: 15<br><br>
